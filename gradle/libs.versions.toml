@@ -1,0 +1,25 @@
+[versions]
+lettuce = "6.6.0.RELEASE"
+guava = "33.4.8-jre"
+zstd = "1.5.2-2"
+
+jetbrains = "26.0.2"
+checker = "3.51.0"
+lombok = "1.18.36"
+
+mockito = "5.19.0"
+junit = "5.7.1"
+testcontainers = "1.21.3"
+
+[libraries]
+lettuce = { module = "io.lettuce:lettuce-core", version.ref = "lettuce" }
+guava = { module = "com.google.guava:guava", version.ref = "guava" }
+zstd = { module = "com.github.luben:zstd-jni", version.ref = "zstd" }
+
+jetbrains-annotations = { module = "org.jetbrains:annotations", version.ref = "jetbrains" }
+checker = { module = "org.checkerframework:checker-qual", version.ref = "checker" }
+lombok = { module = "org.projectlombok:lombok", version.ref = "lombok" }
+
+mockito = { module = "org.mockito:mockito-core", version.ref = "mockito" }
+junit = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit" }
+test-containers = { module = "org.testcontainers:testcontainers", version.ref = "testcontainers" }
